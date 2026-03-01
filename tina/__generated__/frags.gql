@@ -1,0 +1,103 @@
+fragment SiteParts on Site {
+  __typename
+  meta {
+    __typename
+    title
+    description
+    author
+  }
+  navigation {
+    __typename
+    brand
+    items {
+      __typename
+      label
+      href
+    }
+  }
+  hero {
+    __typename
+    title
+    description
+    button {
+      __typename
+      label
+      href
+    }
+  }
+  features {
+    __typename
+    eyebrow
+    title
+    description
+    items {
+      __typename
+      icon
+      title
+      description
+    }
+  }
+  products {
+    __typename
+    title
+    description
+    items {
+      __typename
+      title
+      description
+      price
+      image
+      imageAlt
+    }
+  }
+  mobileHighlight {
+    __typename
+    title
+    description
+    image
+    imageAlt
+  }
+  testimonials {
+    __typename
+    title
+    description
+    items {
+      __typename
+      text
+      author
+      role
+    }
+  }
+  subscribe {
+    __typename
+    title
+    description
+    button {
+      __typename
+      label
+      href
+    }
+  }
+  stickyCta {
+    __typename
+    label
+    href
+  }
+  mascot {
+    __typename
+    image
+    imageAlt
+    message
+  }
+  footer {
+    __typename
+    brand
+    description
+    socialLinks {
+      __typename
+      label
+      href
+    }
+    copyright
+  }
+}
