@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "Stationery Magazine",
+    "description": "Curated stationery collection and magazine for creative minds",
+    "author": "Artiom"
+  },
+  "navigation": {
+    "brand": "Stationery Magazine",
+    "items": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Features", "href": "#features" },
+      { "label": "Collection", "href": "#products" },
+      { "label": "Reviews", "href": "#testimonials" },
+      { "label": "Subscribe", "href": "#subscribe" }
+    ]
+  },
+  "hero": {
+    "title": "Here is our stationery magazine",
+    "description": "Discover curent stationery.",
+    "button": {
+      "label": "Subscribe Now",
+      "href": "#subscribe"
+    }
+  },
+  "features": {
+    "eyebrow": "Features:",
+    "title": "Why Stationery Magazine?",
+    "description": "Prices are 10% lower than retail, bags from temu you can verify their quality.",
+    "items": [
+      {
+        "icon": "&#128218;",
+        "title": "Curated Content",
+        "description": "Notebooks, pens, and paper goods reviewed by experts to help you find your perfect match."
+      },
+      {
+        "icon": "&#10024;",
+        "title": "Creative Inspiration",
+        "description": "DIY projects to fuel your creative journey"
+      }
+    ]
+  },
+  "products": {
+    "title": "Collection/Prodcuts",
+    "description": "This month's handpicked selection of exceptional stationery pieces",
+    "items": [
+      {
+        "title": "Pen",
+        "description": "Simple pen from india",
+        "price": "$0.05",
+        "image": "/src/image_3_pen.png",
+        "imageAlt": "Pen"
+      },
+      {
+        "title": "Journal Set",
+        "description": "Premium paper meets timeless design in this artisan collection",
+        "price": "$5",
+        "image": "/src/image_2_product.png",
+        "imageAlt": "Journal Set"
+      },
+      {
+        "title": "Pencil",
+        "description": "Six unique colors inspired by natural landscapes",
+        "price": "$5",
+        "image": "/src/image_4_pencil.png",
+        "imageAlt": "Pencil"
+      }
+    ]
+  },
+  "mobileHighlight": {
+    "title": "Quick Mobile Pick",
+    "description": "Tap into this week's featured starter set for students and creators.",
+    "image": "/src/image1_location.png",
+    "imageAlt": "Featured stationery set for mobile users"
+  },
+  "testimonials": {
+    "title": "Our testimonials",
+    "description": "Join a community that values quality, creativity, and the tactile joy of paper",
+    "items": [
+      {
+        "text": "Paperly reignited my love for handwriting. The product reviews are honest and the community is incredibly supportive.",
+        "author": "Sarah Chen",
+        "role": "Designer, San Francisco"
+      },
+      {
+        "text": "The monthly themes inspire my journaling practice. I look forward to each issue like a gift to myself.",
+        "author": "Michael Torres",
+        "role": "Writer, Barcelona"
+      },
+      {
+        "text": "Best investment for any stationery lover. The exclusive deals alone pay for the subscription.",
+        "author": "Artiom",
+        "role": "FAF-231"
+      }
+    ]
+  },
+  "subscribe": {
+    "title": "Start Your Subscription Today",
+    "description": "With subscription you will now what items are in the storage",
+    "button": {
+      "label": "Choose Your Plan",
+      "href": "#"
+    }
+  },
+  "stickyCta": {
+    "label": "Subscribe Now",
+    "href": "#subscribe"
+  },
+  "mascot": {
+    "image": "/src/my_maskot.png",
+    "imageAlt": "Friendly stationery mascot",
+    "message": "Welcome. Explore our collection and subscribe for new drops."
+  },
+  "footer": {
+    "brand": "Stationery Magazine",
+    "description": "Celebrating the art of analog living and the beauty of well-crafted stationery since 2004.",
+    "socialLinks": [
+      { "label": "IG", "href": "#" },
+      { "label": "TW", "href": "#" },
+      { "label": "FB", "href": "#" },
+      { "label": "PI", "href": "#" }
+    ],
+    "copyright": "&copy; 2026 Stationery Magazine. All rights not reserved."
+  }
+}
