@@ -1,0 +1,224 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+<Layout title="Stationery Magazine">
+    <header class="fixed inset-x-0 top-0 z-[1000] border-b border-black/5 bg-white/95 shadow-sm backdrop-blur-sm">
+      <nav class="mx-auto flex w-full max-w-6xl flex-col items-start justify-between gap-3 px-5 py-4 md:flex-row md:items-center md:py-3">
+        <div class="logo text-lg font-semibold tracking-wide text-brand-primary md:text-xl">Stationery Magazine</div>
+        <ul class="nav-links flex list-none flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium">
+          <li><a class="transition-colors hover:text-brand-accent" href="#home">Home</a></li>
+          <li><a class="transition-colors hover:text-brand-accent" href="#features">Features</a></li>
+          <li><a class="transition-colors hover:text-brand-accent" href="#products">Collection</a></li>
+          <li><a class="transition-colors hover:text-brand-accent" href="#testimonials">Reviews</a></li>
+          <li><a class="transition-colors hover:text-brand-accent" href="#subscribe">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero bg-brand-secondary text-brand-primary">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <div class="hero-content py-4 md:py-6">
+          <div class="hero-text text-center">
+            <h1 class="text-4xl font-bold leading-tight md:text-5xl">Here is our stationery magazine</h1>
+            <p class="mx-auto max-w-2xl text-base md:text-lg">Discover curent stationery.</p>
+            <a
+              href="#subscribe"
+              class="inline-block rounded-md bg-brand-primary px-6 py-3 text-sm font-semibold text-white shadow transition-all hover:translate-y-[-1px] hover:bg-brand-accent"
+              >Subscribe Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features py-20">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <div class="section-header mx-auto mb-12 max-w-3xl text-center">
+          <h2 class="text-lg font-semibold uppercase tracking-wide text-brand-accent">Features:</h2>
+          <h2 class="text-3xl font-bold text-brand-primary">Why Stationery Magazine?</h2>
+          <p class="text-[15px] text-slate-700">
+            Prices are 10% lower than retail, bags from temu you can verify their quality.
+          </p>
+        </div>
+        <div class="features-grid grid gap-8 md:grid-cols-2">
+          <div>
+            <div class="feature-card h-full rounded-lg bg-white p-8 text-center shadow-lg">
+              <div class="feature-icon mb-4 text-4xl">&#128218;</div>
+              <h3 class="text-xl font-semibold text-brand-primary">Curated Content</h3>
+              <p class="mt-3 text-sm text-slate-700">
+                Notebooks, pens, and paper goods reviewed by experts to help you find your perfect match.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="feature-card h-full rounded-lg bg-white p-8 text-center shadow-lg">
+              <div class="feature-icon mb-4 text-4xl">&#10024;</div>
+              <h3 class="text-xl font-semibold text-brand-primary">Creative Inspiration</h3>
+              <p class="mt-3 text-sm text-slate-700">DIY projects to fuel your creative journey</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products py-20">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <div class="section-header mx-auto mb-12 max-w-3xl text-center">
+          <h2 class="text-3xl font-bold text-brand-primary">Collection/Prodcuts</h2>
+          <p class="text-[15px] text-slate-700">This month's handpicked selection of exceptional stationery pieces</p>
+        </div>
+        <div class="products-grid grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <div class="product-card h-full overflow-hidden rounded-lg bg-white shadow-lg">
+              <div class="product-image flex h-[220px] items-center justify-center overflow-hidden bg-brand-light">
+                <img src="/src/image_3_pen.png" alt="Pen" class="h-full w-auto max-w-full object-contain" />
+              </div>
+              <div class="product-info p-5">
+                <h3 class="text-xl font-semibold text-brand-primary">Pen</h3>
+                <p class="mt-2 text-sm text-slate-700">Simple pen from india</p>
+                <div class="product-price mt-3 font-bold text-brand-accent">$0.05</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="product-card h-full overflow-hidden rounded-lg bg-white shadow-lg">
+              <div class="product-image flex h-[220px] items-center justify-center overflow-hidden bg-brand-light">
+                <img src="/src/image_2_product.png" alt="Journal Set" class="h-full w-auto max-w-full object-contain" />
+              </div>
+              <div class="product-info p-5">
+                <h3 class="text-xl font-semibold text-brand-primary">Journal Set</h3>
+                <p class="mt-2 text-sm text-slate-700">Premium paper meets timeless design in this artisan collection</p>
+                <div class="product-price mt-3 font-bold text-brand-accent">$5</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="product-card h-full overflow-hidden rounded-lg bg-white shadow-lg">
+              <div class="product-image flex h-[220px] items-center justify-center overflow-hidden bg-brand-light">
+                <img src="/src/image_4_pencil.png" alt="Pencil" class="h-full w-auto max-w-full object-contain" />
+              </div>
+              <div class="product-info p-5">
+                <h3 class="text-xl font-semibold text-brand-primary">Pencil</h3>
+                <p class="mt-2 text-sm text-slate-700">Six unique colors inspired by natural landscapes</p>
+                <div class="product-price mt-3 font-bold text-brand-accent">$5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-6 md:hidden">
+      <div class="mx-auto w-full max-w-6xl rounded-lg border border-brand-primary/15 p-4 text-center shadow-sm">
+        <h2 class="text-xl font-semibold text-brand-primary">Quick Mobile Pick</h2>
+        <p class="mt-2 text-sm text-slate-700">Tap into this week's featured starter set for students and creators.</p>
+        <img
+          src="/src/image1_location.png"
+          alt="Featured stationery set for mobile users"
+          class="mx-auto mt-4 w-full max-w-[260px] rounded-md"
+        />
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials bg-brand-secondary py-20">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <div class="section-header mx-auto mb-12 max-w-3xl text-center">
+          <h2 class="text-3xl font-bold text-brand-primary">Our testimonials</h2>
+          <p class="text-[15px] text-slate-700">
+            Join a community that values quality, creativity, and the tactile joy of paper
+          </p>
+        </div>
+        <div class="testimonials-grid grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <div class="testimonial-card h-full rounded-lg bg-white p-8 shadow-lg">
+              <p class="testimonial-text text-sm italic text-slate-700">
+                Paperly reignited my love for handwriting. The product reviews are honest and the community is incredibly
+                supportive.
+              </p>
+              <div class="testimonial-author mt-6 flex items-center gap-4">
+                <div class="author-avatar h-10 w-10 rounded-full bg-brand-light"></div>
+                <div class="author-info">
+                  <h4 class="font-semibold text-brand-primary">Sarah Chen</h4>
+                  <p class="text-sm text-slate-600">Designer, San Francisco</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-card h-full rounded-lg bg-white p-8 shadow-lg">
+              <p class="testimonial-text text-sm italic text-slate-700">
+                The monthly themes inspire my journaling practice. I look forward to each issue like a gift to myself.
+              </p>
+              <div class="testimonial-author mt-6 flex items-center gap-4">
+                <div class="author-avatar h-10 w-10 rounded-full bg-brand-light"></div>
+                <div class="author-info">
+                  <h4 class="font-semibold text-brand-primary">Michael Torres</h4>
+                  <p class="text-sm text-slate-600">Writer, Barcelona</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-card h-full rounded-lg bg-white p-8 shadow-lg">
+              <p class="testimonial-text text-sm italic text-slate-700">
+                Best investment for any stationery lover. The exclusive deals alone pay for the subscription.
+              </p>
+              <div class="testimonial-author mt-6 flex items-center gap-4">
+                <div class="author-avatar h-10 w-10 rounded-full bg-brand-light"></div>
+                <div class="author-info">
+                  <h4 class="font-semibold text-brand-primary">Artiom</h4>
+                  <p class="text-sm text-slate-600">FAF-231</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe" class="cta-section bg-brand-primary py-20 text-center text-white">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <h2 class="text-3xl font-bold">Start Your Subscription Today</h2>
+        <p class="mx-auto mt-3 max-w-2xl text-sm text-slate-100">With subscription you will now what items are in the storage</p>
+        <a
+          href="#"
+          class="mt-6 inline-block rounded-md border border-white/20 bg-brand-primary px-6 py-3 text-sm font-semibold text-white shadow transition-all hover:translate-y-[-1px] hover:bg-brand-accent"
+          >Choose Your Plan</a
+        >
+      </div>
+    </section>
+    <a
+      href="#subscribe"
+      class="mobile-sticky-cta fixed bottom-4 left-1/2 z-[1100] -translate-x-1/2 rounded-full bg-brand-primary px-5 py-3 text-sm font-semibold text-white shadow-xl md:hidden"
+      >Subscribe Now</a
+    >
+
+    <div class="group fixed bottom-[440px] right-3 z-[1150] translate-y-6 opacity-0 [animation:mascot-enter_0.8s_ease_2s_forwards] md:bottom-[18px] md:right-4">
+      <img src="/src/my_maskot.png" alt="Friendly stationery mascot" class="h-auto w-[150px] [animation:mascot-bounce_2.4s_ease-in-out_2.8s_infinite] md:w-[340px]" />
+      <p class="pointer-events-none absolute bottom-2 right-[120px] min-w-[150px] max-w-[190px] translate-y-2 rounded-lg border border-brand-primary/20 bg-white p-2.5 text-[0.78rem] leading-snug text-[#333333] opacity-0 shadow-lg transition-all duration-200 group-hover:translate-y-0 group-hover:opacity-100 md:bottom-[10px] md:right-[250px] md:min-w-[180px] md:max-w-[240px] md:text-[0.82rem]">
+        Welcome. Explore our collection and subscribe for new drops.
+      </p>
+    </div>
+
+    <footer class="bg-brand-primary py-10 text-white">
+      <div class="mx-auto w-full max-w-6xl px-5">
+        <div class="footer-content mb-8">
+          <div class="footer-section max-w-2xl">
+            <h3 class="text-xl font-semibold">Stationery Magazine</h3>
+            <p class="mt-3 text-sm text-slate-100">
+              Celebrating the art of analog living and the beauty of well-crafted stationery since 2004.
+            </p>
+            <div class="social-links mt-4 flex gap-4 text-sm font-semibold uppercase tracking-wide">
+              <a href="#" class="transition hover:text-brand-accent">IG</a>
+              <a href="#" class="transition hover:text-brand-accent">TW</a>
+              <a href="#" class="transition hover:text-brand-accent">FB</a>
+              <a href="#" class="transition hover:text-brand-accent">PI</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom border-t border-white/15 pt-4 text-center text-xs text-slate-200">
+          <p>&copy; 2026 Stationery Magazine. All rights not reserved.</p>
+        </div>
+      </div>
+    </footer>
+ </Layout>

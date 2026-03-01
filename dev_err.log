@@ -1,0 +1,5 @@
+[31m[1m17:47:35[22m [ERROR][39m spawn EPERM
+  [1mStack trace:[22m
+[2m    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.execFile (node:child_process:349:17)
+    [...] See full stack trace in the browser, or rerun with --verbose.[22m
