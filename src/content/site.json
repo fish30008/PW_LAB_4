@@ -7,11 +7,26 @@
   "navigation": {
     "brand": "Stationery Magazine",
     "items": [
-      { "label": "Home", "href": "#home" },
-      { "label": "Features", "href": "#features" },
-      { "label": "Collection", "href": "#products" },
-      { "label": "Reviews", "href": "#testimonials" },
-      { "label": "Subscribe", "href": "#subscribe" }
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Collection",
+        "href": "#products"
+      },
+      {
+        "label": "Reviews",
+        "href": "#testimonials"
+      },
+      {
+        "label": "Subscribe",
+        "href": "#subscribe"
+      }
     ]
   },
   "hero": {
@@ -63,6 +78,13 @@
         "price": "$5",
         "image": "/src/image_4_pencil.png",
         "imageAlt": "Pencil"
+      },
+      {
+        "title": "Special",
+        "description": "SellsOnlyInOctober",
+        "price": "99",
+        "image": "http://localhost:4321/src/my_maskot.png",
+        "imageAlt": "/src/my_mascot.png"
       }
     ]
   },
@@ -114,10 +136,22 @@
     "brand": "Stationery Magazine",
     "description": "Celebrating the art of analog living and the beauty of well-crafted stationery since 2004.",
     "socialLinks": [
-      { "label": "IG", "href": "#" },
-      { "label": "TW", "href": "#" },
-      { "label": "FB", "href": "#" },
-      { "label": "PI", "href": "#" }
+      {
+        "label": "IG",
+        "href": "#"
+      },
+      {
+        "label": "TW",
+        "href": "#"
+      },
+      {
+        "label": "FB",
+        "href": "#"
+      },
+      {
+        "label": "PI",
+        "href": "#"
+      }
     ],
     "copyright": "&copy; 2026 Stationery Magazine. All rights not reserved."
   }
